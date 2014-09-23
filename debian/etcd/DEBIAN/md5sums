@@ -1,0 +1,5 @@
+b0d16ed2f33e476c7419cb2c081d85b0  usr/bin/etcd
+eb79de6e6f7fe070642c060f47a282a6  usr/bin/etcd-bench
+dbbe7da00de990ea39ef5e7142a80c0b  usr/share/doc/etcd/changelog.Debian.gz
+783222c1f69d18d3d8828fc28e2f4b71  usr/share/doc/etcd/changelog.gz
+3b83ef96387f14655fc854ddc3c6bd57  usr/share/doc/etcd/copyright

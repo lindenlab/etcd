@@ -1,0 +1,12 @@
+Source: etcd
+Maintainer: Don Kjer <don@lindenlab.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), golang-go
+
+Package: etcd
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: etcd: A highly-available key value store for shared configuration and service discovery.
+ etcd is inspired by Apache ZooKeeper and doozer

@@ -1,0 +1,10 @@
+Package: etcd
+Version: 0.4.6-1
+Architecture: amd64
+Maintainer: Don Kjer <don@lindenlab.com>
+Installed-Size: 13366
+Depends: libc6 (>= 2.2.5)
+Section: misc
+Priority: optional
+Description: etcd: A highly-available key value store for shared configuration and service discovery.
+ etcd is inspired by Apache ZooKeeper and doozer

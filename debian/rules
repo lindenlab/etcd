@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+override_dh_auto_install:
+	mkdir -p $$(pwd)/debian/etcd/usr/bin
+	$(MAKE) DESTDIR=$$(pwd)/debian/etcd/usr/bin install
+
+%:
+	dh $@
+
